@@ -1,0 +1,12 @@
+item replace entity @s armor.head with slime_block[attribute_modifiers={modifiers:[{id:"armor",type:"armor",amount:20,operation:"add_value",slot:"head"},{id:"max_health",type:"max_health",amount:20,operation:"add_value",slot:"head"},{id:"attack_knockback",type:"attack_knockback",amount:1,operation:"add_value",slot:"head"}],show_in_tooltip:true},item_name='"Slime Hivemind Link"',enchantments={levels:{"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},show_in_tooltip:false},enchantment_glint_override=true,lore=['"A link to the Slime Core\'s Hivemind"']]
+item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick[item_model="minecraft:slime/slime_fist",item_name='"Slime Fist"',lore=['"Punch for some damage."', '"Right click to throw a sticky ball."'], attribute_modifiers={modifiers:[{id:"cwm:attack_damage",type:"minecraft:attack_damage",amount:5,operation:"add_value"}]}]
+item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick[item_model="minecraft:slime/slime_engulf", item_name='"Slime engulfment"',lore=['"Engulf nearby enemies in slime, dealing 2 damage"']]
+item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick[item_model="minecraft:slime/split", item_name='"Split"',lore=['"Create 4 clones and get smaller."','"Clones attack other players"']]
+effect give @s minecraft:invisibility 1 255 true
+execute if entity @s[nbt={SelectedItemSlot:0},scores={cwm.songs.rclick=1..}] at @s rotated as @s anchored eyes run function cwm.songs:souls_running/slime/ability_1
+execute if entity @s[nbt={SelectedItemSlot:1},scores={cwm.songs.rclick=1..}] at @s rotated as @s anchored eyes run function cwm.songs:souls_running/slime/ability_2
+execute if entity @s[nbt={SelectedItemSlot:2},scores={cwm.songs.rclick=1..}] at @s rotated as @s anchored eyes run function cwm.songs:souls_running/slime/ability_3
+#Manage clone behavior
+execute as @e[type=minecraft:zombified_piglin,tag=cwm.slime_clone] run item replace entity @s weapon.mainhand from entity @e[tag=cwm.slime_core,limit=1,sort=nearest] weapon.mainhand
+execute as @e[type=minecraft:zombified_piglin,tag=cwm.slime_clone] run effect give @s minecraft:invisibility infinite 255 true
+execute as @e[type=minecraft:zombified_piglin,tag=cwm.slime_clone,nbt=!{AngryAt:[{}]}] at @s run data modify entity @s AngryAt set from entity @e[type=#cwm.songs:sentient,tag=!cwm.slime_core,tag=!cwm.slime_clone,limit=1,sort=nearest,type=!#minecraft:aquatic] UUID

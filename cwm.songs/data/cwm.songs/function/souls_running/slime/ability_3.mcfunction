@@ -1,0 +1,7 @@
+playsound minecraft:entity.shulker_bullet.hit master @a ~ ~ ~
+summon minecraft:zombified_piglin ~1 ~ ~ {Tags:["cwm.slime_clone"], AngerTime: 2147483647,DeathLootTable:"cwm.souls:empty",ArmorItems:[{},{},{},{id:"minecraft:slime_block",count:1,components:{"minecraft:enchantment_glint_override":true}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}
+summon minecraft:zombified_piglin ~-1 ~ ~ {Tags:["cwm.slime_clone"], AngerTime: 2147483647,DeathLootTable:"cwm.souls:empty",ArmorItems:[{},{},{},{id:"minecraft:slime_block",count:1,components:{"minecraft:enchantment_glint_override":true}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}
+summon minecraft:zombified_piglin ~ ~ ~1 {Tags:["cwm.slime_clone"], AngerTime: 2147483647,DeathLootTable:"cwm.souls:empty",ArmorItems:[{},{},{},{id:"minecraft:slime_block",count:1,components:{"minecraft:enchantment_glint_override":true}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}
+summon minecraft:zombified_piglin ~ ~ ~-1 {Tags:["cwm.slime_clone"], AngerTime: 2147483647,DeathLootTable:"cwm.souls:empty",ArmorItems:[{},{},{},{id:"minecraft:slime_block",count:1,components:{"minecraft:enchantment_glint_override":true}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}
+execute as @e[tag=cwm.slime_clone] run data merge entity @s {Silent: 1b}
+scoreboard players set @s CD3 1200

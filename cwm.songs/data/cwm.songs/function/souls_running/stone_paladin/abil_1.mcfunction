@@ -1,0 +1,3 @@
+item replace entity @s hotbar.0 with iron_sword[attribute_modifiers=[{id:"attack_damage",type:"attack_damage",amount:4,operation:"add_value"},{id:"attack_speed",type:"attack_speed",amount:-2.4,operation:"add_value"}],item_model="stone_paladin/molten_sword",max_damage=1,enchantments={levels:{"fire_aspect":3}},enchantment_glint_override=true,item_name='"Molten Sword"',lore=['"Deals more damage and sets enemies on fire exactly once."']]
+scoreboard players set @s CD1 100
+scoreboard players reset @s cwm.songs.rclick

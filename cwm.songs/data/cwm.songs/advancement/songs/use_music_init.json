@@ -1,0 +1,33 @@
+{
+    "display": {
+      "hidden": true,
+      "icon": {
+        "id": "minecraft:structure_void"
+      },
+      "title": "Prelude",
+      "description": "Use the Musical Initializer. You can use /trigger choose_soul to view a list of unlocked souls.",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "cwm.songs:songs/craft_music_init",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ],
+    "rewards": {
+      "loot": [],
+      "recipes": [
+        "cwm.songs:souls/slime_core",
+        "cwm.songs:souls/infested",
+        "cwm.songs:souls/rock"
+      ],
+      "experience": 0
+    }
+  }

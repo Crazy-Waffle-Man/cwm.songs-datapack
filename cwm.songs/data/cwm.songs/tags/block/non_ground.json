@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:water",
+        "#minecraft:air",
+        "minecraft:lava",
+        "#minecraft:all_hanging_signs",
+        "#minecraft:all_signs",
+        "#minecraft:banners",
+        "#minecraft:coral_plants",
+        "#minecraft:buttons",
+        "#minecraft:flowers" 
+    ]
+}

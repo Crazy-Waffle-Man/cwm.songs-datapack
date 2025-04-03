@@ -1,0 +1,4 @@
+title @a clear
+title @a title [{"color":"gold","obfuscated":true,"text":"S"},{"obfuscated":true,"text":"o"},{"obfuscated":true,"text":"n"},{"obfuscated":true,"text":"g"},{"obfuscated":true,"text":"s"},{"obfuscated":true,"text":" "},{"obfuscated":true,"text":"o"},{"obfuscated":true,"text":"f"},{"obfuscated":true,"text":" "},{"obfuscated":true,"text":"S"},{"obfuscated":true,"text":"o"},{"obfuscated":true,"text":"u"},{"obfuscated":true,"text":"l"},{"obfuscated":true,"text":"s"}]
+schedule function cwm.songs:music_init_titles/2 32.7t
+schedule function cwm.songs:music_init_titles/end 763t

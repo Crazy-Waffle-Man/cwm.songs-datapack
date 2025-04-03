@@ -1,0 +1,16 @@
+{
+    "values": [
+        "#is_fire",
+        "#is_explosion",
+        "dragon_breath",
+        "drown",
+        "dry_out",
+        "ender_pearl",
+        "freeze",
+        "hot_floor",
+        "lava",
+        "lightning_bolt",
+        "sonic_boom",
+        "wind_charge"
+    ]
+}

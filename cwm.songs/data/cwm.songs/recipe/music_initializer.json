@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "abc",
+      "def",
+      "ghi"
+    ],
+    "key": {
+      "a": "minecraft:music_disc_13",
+      "b": "minecraft:music_disc_cat",
+      "c": "minecraft:music_disc_blocks",
+      "d": "minecraft:music_disc_chirp",
+      "e": "minecraft:music_disc_far",
+      "f": "minecraft:music_disc_mall",
+      "g": "minecraft:music_disc_mellohi",
+      "h": "minecraft:music_disc_stal",
+      "i": "minecraft:music_disc_strad"
+    },
+    "result": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:item_model": "minecraft:structure_void",
+        "minecraft:lore": [
+          "\"Right click to use\""
+        ],
+        "minecraft:item_name": "\"Musical initializer\"",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        }
+      },
+      "count": 1
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "pack": {
+      "description": "Music is life",
+      "pack_format": 61,
+      "supported_formats": {
+        "min_inclusive": 46,
+        "max_inclusive": 61
+      }
+    }
+  }

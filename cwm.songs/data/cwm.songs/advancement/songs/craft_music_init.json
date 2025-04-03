@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_ward"
+    },
+    "title": "It Begins...",
+    "description": "Craft music discs 13, cat, blocks, chirp, far, mall, mellohi, stal, strad, and ward.",
+    "background": "minecraft:note_block"
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "cwm.songs:music_initializer"
+      }
+    }
+  },
+  "parent": "cwm.songs:songs/root",
+  "requirements": [
+    ["crafted"]
+  ],
+  "rewards": {
+    "loot": [
+      "cwm.songs:advancement_rewards/craft_music_initializer"
+    ]
+  }
+}

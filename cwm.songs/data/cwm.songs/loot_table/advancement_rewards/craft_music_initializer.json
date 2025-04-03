@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jukebox",
+            "weight": 99
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_creator_music_box",
+            "weight": 1
+          }
+        ],
+        "conditions": []
+      }
+    ],
+    "functions": []
+  }

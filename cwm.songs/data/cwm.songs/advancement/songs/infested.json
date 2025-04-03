@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:infested_chiseled_stone_bricks",
+        "components": {
+          "item_model": "infested/silverfish"
+        }
+      },
+      "title": "Infested",
+      "description": "Free the Infestation's Soul",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false
+    },
+    "parent": "cwm.songs:songs/use_music_init",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ]
+  }

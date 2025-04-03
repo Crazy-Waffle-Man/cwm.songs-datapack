@@ -1,0 +1,3 @@
+title @a clear
+title @a title [{"color":"gold","obfuscated":false,"text":"S"},{"obfuscated":false,"text":"o"},{"obfuscated":false,"text":"n"},{"obfuscated":false,"text":"g"},{"obfuscated":false,"text":"s"},{"obfuscated":true,"text":" "},{"obfuscated":true,"text":"o"},{"obfuscated":true,"text":"f"},{"obfuscated":true,"text":" "},{"obfuscated":true,"text":"S"},{"obfuscated":true,"text":"o"},{"obfuscated":true,"text":"u"},{"obfuscated":true,"text":"l"},{"obfuscated":true,"text":"s"}]
+schedule function cwm.songs:music_init_titles/7 32.7t

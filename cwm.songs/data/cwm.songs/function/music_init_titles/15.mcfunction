@@ -1,0 +1,3 @@
+title @a clear
+title @a times 0t 589.086t 10.909t
+title @a title [{"color":"gold","obfuscated":false,"text":"S"},{"obfuscated":false,"text":"o"},{"obfuscated":false,"text":"n"},{"obfuscated":false,"text":"g"},{"obfuscated":false,"text":"s"},{"obfuscated":false,"text":" "},{"obfuscated":false,"text":"o"},{"obfuscated":false,"text":"f"},{"obfuscated":false,"text":" "},{"obfuscated":false,"text":"S"},{"obfuscated":false,"text":"o"},{"obfuscated":false,"text":"u"},{"obfuscated":false,"text":"l"},{"obfuscated":false,"text":"s"}]
