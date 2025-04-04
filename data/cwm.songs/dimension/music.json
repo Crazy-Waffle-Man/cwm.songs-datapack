@@ -1,0 +1,24 @@
+{
+    "type": "cwm.songs:music",
+    "generator": {
+      "biome_source": {
+        "biomes": [
+          {
+            "biome": "cwm.songs:earthworks",
+            "parameters": {
+              "temperature": -1,
+              "humidity": -1,
+              "continentalness": 1,
+              "erosion": -1,
+              "weirdness": 1,
+              "depth": 0,
+              "offset": 0
+            }
+          }
+        ],
+        "type": "minecraft:multi_noise"
+      },
+      "settings": "cwm.songs:earthworks",
+      "type": "minecraft:noise"
+    }
+  }

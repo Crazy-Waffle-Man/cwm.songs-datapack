@@ -6,3 +6,4 @@ attribute @s movement_speed base set 0
 attribute @s jump_strength base set 0
 item replace entity @s hotbar.1 with air
 scoreboard players set @s CD2 800
+playsound entity.warden.heartbeat master @a ~ ~ ~ 1 1 1
