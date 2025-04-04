@@ -24,9 +24,9 @@
       "xz_scale": 1,
       "y_scale": 2
     },
-    "continents": "cwm.songs:music/continents",
-    "depth": "cwm.songs:music/depth",
-    "erosion": "cwm.songs:music/erosion",
+    "continents": "minecraft:overworld/continents",
+    "depth": "minecraft:overworld/depth",
+    "erosion": "minecraft:overworld/erosion",
     "final_density": {
       "type": "minecraft:min",
       "argument1": {
@@ -239,7 +239,7 @@
       "xz_scale": 1,
       "y_scale": 1
     },
-    "ridges": "cwm.songs:music/ridges",
+    "ridges": "minecraft:overworld/ridges",
     "temperature": {
       "type": "minecraft:shifted_noise",
       "noise": "minecraft:temperature",
@@ -409,12 +409,6 @@
             }
           }
         ]
-      },
-      {
-        "type": "minecraft:block",
-        "result_state": {
-          "Name": "minecraft:granite"
-        }
       }
     ]
   }
