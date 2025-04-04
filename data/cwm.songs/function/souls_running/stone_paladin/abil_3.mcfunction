@@ -1,9 +1,10 @@
-effect give @s slow_falling 30 255 true
+effect give @s slow_falling 4 255 true
 scoreboard players set @s CD3 1200
+playsound entity.generic.explode master @a ~ ~ ~ 1 0.1 1
 #y=10, -10
 fill ~-1 ~-10 ~-3 ~1 ~10 ~3 air
 fill ~-2 ~-10 ~-2 ~2 ~10 ~2 air
-fill ~-1 ~-10 ~-3 ~1 ~10 ~3 air
+fill ~-3 ~-10 ~-1 ~3 ~10 ~1 air
 #y=9, -9
 fill ~-5 ~-9 ~-1 ~5 ~9 ~1 air
 fill ~-4 ~-9 ~-3 ~4 ~9 ~3 air

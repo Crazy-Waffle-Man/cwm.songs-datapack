@@ -10,7 +10,8 @@
       "description": "Free the Infestation's Soul. id = 2",
       "frame": "challenge",
       "show_toast": true,
-      "announce_to_chat": false
+      "announce_to_chat": false,
+      "hidden": true
     },
     "parent": "cwm.songs:songs/use_music_init",
     "criteria": {
