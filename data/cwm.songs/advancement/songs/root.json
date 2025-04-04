@@ -5,7 +5,7 @@
     },
     "title": "Musical Journey",
     "description": "Install the datapack",
-    "background": "minecraft:textures/block/black_concrete.png",
+    "background": "minecraft:block/black_concrete",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": false
