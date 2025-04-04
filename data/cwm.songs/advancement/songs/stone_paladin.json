@@ -7,7 +7,7 @@
         }
       },
       "title": "Rock-solid",
-      "description": "Free the Stone Paladin's Soul",
+      "description": "Free the Stone Paladin's Soul. id = 3",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": false

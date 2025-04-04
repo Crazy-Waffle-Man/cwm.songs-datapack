@@ -5,7 +5,7 @@
         "id": "minecraft:structure_void"
       },
       "title": "Prelude",
-      "description": "Use the Musical Initializer. You can use /trigger choose_soul to view a list of unlocked souls.",
+      "description": "Use the Musical Initializer. You can use /trigger choose_soul set {id} to use a soul you have unlocked. Each soul has a different number.",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": false
