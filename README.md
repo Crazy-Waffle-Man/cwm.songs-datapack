@@ -12,4 +12,4 @@
 
 /function cwm.songs:util/give_souls_and_init
 ## Planned Features:
-Custom dimension with custom biomes, more new classes, structures, and enchantments. The folders are here, I just need to figure out what to put in them.
+Custom dimension with custom biomes and noise settings, more new classes, structures, and enchantments. The folders are here, I just need to figure out what to put in them.
