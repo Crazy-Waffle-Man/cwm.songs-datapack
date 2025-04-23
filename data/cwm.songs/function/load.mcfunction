@@ -1,6 +1,6 @@
 say Normalize sharing scrappy fiddles
 tellraw @a "Here is the resource pack download:"
-tellraw @a {"clickEvent":{"action":"open_url","value":"https://github.com/Crazy-Waffle-Man/cwm.songs/tree/main"},"text":"https://github.com/Crazy-Waffle-Man/cwm.songs/tree/main"}
+tellraw @a {"click_event":{"action":"open_url","url":"https://github.com/Crazy-Waffle-Man/cwm.songs/tree/main"},"hover_event":{"action":"show_text","value":[{"text":"Opens URL"}]},"shadow_color":-14241537,"text":"[Resource Pack Download]"}
 advancement revoke @a from cwm.songs:songs/root
 advancement grant @a until cwm.songs:songs/root
 recipe give @a cwm.songs:music_initializer

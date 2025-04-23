@@ -379,36 +379,20 @@
     }
   ],
   "surface_rule": {
-    "type": "minecraft:sequence",
+    "type": "sequence",
     "sequence": [
       {
-        "type": "minecraft:sequence",
-        "sequence": [
-          {
-            "type": "minecraft:block",
-            "result_state": {
-              "Name": "minecraft:packed_mud"
-            }
-          },
-          {
-            "type": "minecraft:block",
-            "result_state": {
-              "Name": "minecraft:terracotta"
-            }
-          },
-          {
-            "type": "minecraft:block",
-            "result_state": {
-              "Name": "minecraft:dripstone_block"
-            }
-          },
-          {
-            "type": "minecraft:block",
-            "result_state": {
-              "Name": "minecraft:polished_granite"
-            }
+        "type": "condition",
+        "if_true": {
+          "type": "biome",
+          "biome_is": ["cwm.songs:earthworks"]
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "packed_mud"
           }
-        ]
+        }
       }
     ]
   }
