@@ -22,12 +22,10 @@
       "components": {
         "minecraft:item_model": "minecraft:structure_void",
         "minecraft:lore": [
-          "\"Right click to use\""
+          "Right click to use"
         ],
-        "minecraft:item_name": "\"Musical initializer\"",
-        "minecraft:unbreakable": {
-          "show_in_tooltip": false
-        }
+        "minecraft:item_name": "Musical initializer",
+        "minecraft:unbreakable": {}
       },
       "count": 1
     }

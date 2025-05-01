@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "aba",
+        "bcb",
+        "aba"
+    ],
+    "key": {
+        "a": "flint_and_steel",
+        "b": "chicken",
+        "c": "zombie_head"
+    },
+    "result": {
+        "id": "carrot_on_a_stick",
+        "count": 1,
+        "components": {
+            "item_name": "Soul of Steven",
+            "lore": ["I... am Steven","⚡"],
+            "item_model": "minecraft:meme/soul",
+            "unbreakable": {}
+        }
+    }
+}

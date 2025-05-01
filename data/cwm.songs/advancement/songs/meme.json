@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "stick",
+        "components": {
+          "item_model": "meme_soul"
+        }
+      },
+      "title": "Steven",
+      "description": "Free the Steven's Soul. id = 4",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "cwm.songs:songs/use_music_init",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ]
+  }

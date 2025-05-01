@@ -14,15 +14,13 @@
     "result": {
       "id": "minecraft:carrot_on_a_stick",
       "components": {
-        "minecraft:item_name": "\"Soul of Slime Core\"",
+        "minecraft:item_name": "Soul of Slime Core",
         "minecraft:lore": [
-          "\"The lifeforce of the great Slime Core\"",
-          "\"Right click to release\""
+          "The lifeforce of the great Slime Core",
+          "Right click to release"
         ],
         "minecraft:enchantment_glint_override": true,
-        "minecraft:unbreakable": {
-          "show_in_tooltip": false
-        },
+        "minecraft:unbreakable": {},
         "minecraft:item_model": "minecraft:slime_ball"
       },
       "count": 1
